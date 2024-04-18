@@ -1,0 +1,10 @@
+.table{
+
+    background-color: rgb(209, 190, 107);
+    color: black;
+    border: 1px solid black;
+}
+th,td{
+border: 1px solid peru;
+
+}
