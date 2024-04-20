@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='nav-logo'>
-     <div>POISE</div>
+     <div>BLOG</div>
      </div>
     <ul className='nav-menu'>
         <li onClick={()=>{setMenu('home')}}><Link style={{textDecoration: 'none'}} to='/'>Home</Link>{menu==='home'?<hr/>:<></>}</li>
