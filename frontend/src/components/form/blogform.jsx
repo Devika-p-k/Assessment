@@ -7,30 +7,31 @@ const BlogForm = () => {
             <div>
                 
                <div>
-               <h2>Add a New Blog</h2>
+               <h2>ADD NEW BLOG HERE</h2>
                </div>
                 <div >
-                Blog Name: <input style={{height:'30px',width:'350px'}}
+                BLOG TITLE: <input style={{height:'30px',width:'350px'}}
                         type="text"
                         required
-                      placeholder='name'
+                      placeholder='title'
                     />
                     </div>
                     <div>
-                Description:  <textarea style={{height:'200px',width:'350px'}}
+                DESCRIPTION:  <textarea style={{height:'200px',width:'350px'}}
                         required
                         placeholder='description'
                         
                     />
                     </div>
                     <div >
-            Blog author:  <input style={{height:'30px',width:'350px'}}
+            BLOG AUTHOR:  <input style={{height:'30px',width:'350px'}}
                          type='text'
                         placeholder='author'
                     ></input>
                      </div>
+                    <br/>
                      <div>
-                    <button style={{height:'30px',width:'200px'}}>Submit</button>
+                    <button style={{height:'30px',width:'200px', borderRadius:'5px', fontSize:'20px'}}>Submit</button>
                     </div>
                     </div>
            
